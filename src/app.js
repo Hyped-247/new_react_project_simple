@@ -1,11 +1,10 @@
 import ReactDOM from 'react-dom'
 import React from 'react';
-import IndecisionApp from './components/IndecisionApp';
 import 'normalize.css/normalize.css';
 import './styles/styles.scss';
 
 
 
-ReactDOM.render(<IndecisionApp />, document.getElementById('root'));
+ReactDOM.render(<p>This is base code</p>, document.getElementById('root'));
 
 
