@@ -1,0 +1,161 @@
+html {
+  font-size: 62.5%; }
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.6rem;
+  background-color: #333745; }
+
+button {
+  cursor: pointer; }
+
+button:disabled {
+  cursor: default; }
+
+.big-button {
+  background-color: #8b68c5;
+  border: none;
+  border-bottom: 0.6rem solid #6f45b5;
+  color: white;
+  font-weight: bold;
+  font-size: 3.2rem;
+  margin-bottom: 1.2rem;
+  padding: 2.4rem;
+  width: 100%; }
+
+.big-button:disabled {
+  opacity: .5; }
+
+.button {
+  background-color: #8b68c5;
+  border: none;
+  border-bottom: 0.3rem solid #6f45b5;
+  font-weight: 500;
+  padding: 1.2rem; }
+
+.button__link {
+  background: none;
+  border: none;
+  color: #a5afd7;
+  padding: 0; }
+
+@media (min-width: 45rem) {
+  .big-button {
+    margin-bottom: 4.8rem; } }
+.widget {
+  background-color: #464b5e;
+  margin-bottom: 4.8rem; }
+
+.widget__message {
+  color: #a5afd7;
+  margin: 0;
+  padding: 3.2rem;
+  text-align: center;
+  border-bottom: 1px solid #5c627b; }
+
+.widget-header {
+  background-color: #3c4251;
+  color: #a5afd7;
+  padding: 1.6rem;
+  display: flex;
+  justify-content: space-between; }
+
+.widget-header--title {
+  margin: 0; }
+
+.header {
+  background: #20222b;
+  color: #a5afd7;
+  margin-bottom: 1.2rem;
+  padding: 1.6rem; }
+
+.header__title {
+  font-size: 3.2rem;
+  margin: 0; }
+
+.header__subtitle {
+  color: cadetblue;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin: 0; }
+
+@media (min-width: 45rem) {
+  .header {
+    margin-bottom: 4.8rem; } }
+.add-option-error {
+  color: white;
+  font-style: italic;
+  margin: 1.6rem 0 0 0;
+  padding: 0 1.6rem; }
+
+.add-option {
+  display: flex;
+  flex-direction: column;
+  padding: 1.6rem; }
+
+.add-option__input {
+  background-color: #333745;
+  color: #a5afd7;
+  border: none;
+  border-bottom: 0.3rem solid #1d2028;
+  flex-grow: 1;
+  margin: 0 0 1.2rem 0;
+  padding: 1.2rem; }
+
+@media (min-width: 45rem) {
+  .add-option {
+    flex-direction: row; }
+
+  .add-option__input {
+    margin: 0 1.2rem 0; } }
+.ReactModalPortal > div {
+  opacity: 0; }
+
+.ReactModalPortal .ReactModal__Overlay {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  transition: opacity 200ms ease-in-out; }
+
+.ReactModalPortal .ReactModal__Overlay--after-open {
+  opacity: 1; }
+
+.ReactModalPortal .ReactModal__Overlay--before-close {
+  opacity: 0; }
+
+.modal {
+  background-color: #464b5e;
+  color: white;
+  max-width: 30rem;
+  outline: none;
+  padding: 3.2rem;
+  text-align: center; }
+
+.modal__title {
+  margin: 0 0 1.6rem 0; }
+
+.modal__body {
+  font-size: 2rem;
+  font-weight: 300;
+  margin: 0 0 1.6rem 0;
+  word-break: break-all; }
+
+.option {
+  border-bottom: 1px solid #464b5e #5c627b;
+  display: flex;
+  justify-content: space-between;
+  padding: 3.2rem 1.6rem; }
+
+.option__text {
+  color: white;
+  font-weight: 500;
+  font-size: 2rem;
+  margin: 0;
+  word-break: break-all; }
+
+.container {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 0 1.6rem; }
+
+/*# sourceMappingURL=styles.css.map */
